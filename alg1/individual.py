@@ -33,14 +33,6 @@ class Individual(object):
         child2 = Individual(child2_genome)
         return child1, child2
 
-    def fight(self, another_ind):
-        fighters = (self.genome, another_ind.genome)
-        winner_index = nim_tools.nim_game_simulation(fighters)
-        this_individual_won = (winner_index == 0)
-        self.fitness = 1*int(this_individual_won)
-        another_ind.fitness = 1*int(not this_individual_won)
-        return this_individual_won
-
     def __str__(self):
         return "genome:"+self.genome+";fitness:"+str(self.fitness)+"\n"
 
