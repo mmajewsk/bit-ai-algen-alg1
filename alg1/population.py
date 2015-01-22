@@ -48,11 +48,6 @@ class Population:
         self.fitness_table = []
         return new_population
 
-    def evolve(self):
-        self.evaluate()
-        self.selection()
-        self.breed()
-
     def __str__(self):
         result = ""
         for i, ind in enumerate(self.pop):
