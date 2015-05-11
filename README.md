@@ -1,4 +1,6 @@
 # bit-ai-algen-alg1
+
+[![Join the chat at https://gitter.im/hawkerpl/bit-ai-algen-alg1](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/hawkerpl/bit-ai-algen-alg1?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Pierwsze laboratorium przygotowane dla kola naukowego bit-ai.
 22 styczen 2015
 
